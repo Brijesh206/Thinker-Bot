@@ -16,17 +16,3 @@ public class Commands extends ListenerAdapter {
         if(args[0].equalsIgnoreCase(prefix + "test")){
             event.getChannel().sendMessage("Hey there, I'm alive!");
         }
-
-//        if (event.isFromType(ChannelType.PRIVATE))
-//        {
-//            System.out.printf("[PM] %s: %s\n", event.getAuthor().getName(),
-//                    event.getMessage().getContentDisplay());
-//        }
-//        else
-//        {
-//            System.out.printf("[%s][%s] %s: %s\n", event.getGuild().getName(),
-//                    event.getChannel().getName(), Objects.requireNonNull(event.getMember()).getEffectiveName(),
-//                    event.getMessage().getContentDisplay());
-//        }
-    }
-}
